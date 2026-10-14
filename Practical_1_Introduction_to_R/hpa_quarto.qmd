@@ -1,0 +1,23 @@
+---
+title: "Brain Data"
+author: "Kitt Smith"
+---
+
+Total number of genes with regionally elevated expression in the forebrain of humans, pigs and mice, using data from the Human Protein Atlas (HPA).
+
+```{r}
+sum(180, 83, 57, 110)
+```
+Total genes with regionally elevated expression in humans is 430.
+
+```{r}
+sum(109, 157, 31, 45)
+```
+Total genes with regionally elevated expression in pigs is 342.
+
+```{r}
+sum(55, 185, 60, 98)
+```
+Total genes with regionally elevated expression in mice is 398.
+
+Humans have the greatest total number of genes in the forebrain with regionally elevated expression.
