@@ -1,0 +1,45 @@
+---
+title: "Practical_1_Introduction_to_R/prac1_exercises"
+author: "Kitt Smith"
+---
+
+```{r}
+sqrt(9)
+```
+```{r}
+round(3.14159)
+```
+```{r}
+round(3.14159, digits = 2)
+```
+```{r}
+print(seq(1, 10, 2))
+```
+```{r}
+print(rep(5, 7))
+```
+```{r}
+print(rep(times=7, x=5))
+```
+The value would be 5.
+
+```{r}
+x <- 14
+y <- "son"
+z <- FALSE
+print(class(x))
+print(class(y))
+print(class(z))
+```
+```{r}
+cell_ID1 <- "CX1"
+cell_ID2 <- "CX2"
+treated1 <- TRUE
+treated2 <- FALSE
+before1 <- 5415
+before2 <- 8123
+after1 <- 1432
+after2 <- 7543
+```
+
+
