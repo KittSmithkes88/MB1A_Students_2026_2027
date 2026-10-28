@@ -42,4 +42,37 @@ after1 <- 1432
 after2 <- 7543
 ```
 
+```{r}
+library(tidyverse)
+library(gt)
+```
+```{r}
+vector1 <- c(cell_ID1, treated1, before1, after1)
+
+```
+```{r}
+install.packages("fortunes")
+
+```
+```{r}
+library(fortunes)
+fortune()
+```
+```{r}
+all_my_pets <- c("dog", "horse", "guinea pig", "chicken", "cat")
+print(all_my_pets[4])
+```
+```{r}
+print(before1)
+```
+```{r}
+my_data_frame <- tibble(
+  cell_ID = c("CX1", "CX2"),
+  treated = c("TRUE", "FALSE"),
+  num_cells_before = c("5415", "8123"),
+  num_cells_after = c("1432", "7543")
+)
+
+gt(my_data_frame)
+```
 

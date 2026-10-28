@@ -1,0 +1,27 @@
+---
+title: "Practical_1_Introduction_to_R/ukhsa_data_analysis"
+author: "Kitt Smith"
+---
+```{r}
+library(tidyverse)
+library(gt)
+```
+```{r}
+antibiotics <- read_csv("ukhsa-chart-download.csv")
+gt(head(antibiotics))
+```
+Table above represents Rate of Access antibiotics use in all care settings.
+
+```{r}
+antibiotics <- read_csv("ukhsa-chart-download.csv")
+ggplot(antibiotics, aes(
+  x = date,
+  y = metric_value
+)) + 
+  geom_line(colour = "red") +
+  xlab("Date") +
+  ylab("DID") +
+  ggtitle("Access antibiotics over time")
+
+```
+
